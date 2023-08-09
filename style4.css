@@ -1,0 +1,24 @@
+button{
+    background-color: blueviolet;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+*{
+    background-color: lightcyan;
+}
+
+.warning{
+    background-color: orange;
+}
+
+/*#my-button{
+    background-color: brown;
+}*/
+
+.error {
+    background-color: darkcyan;
+}
