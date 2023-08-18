@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  .Main-Charter{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .Sub-Charter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .C1,
+  .C2,
+  .C3 {
+    flex: 1;
+    max-width: calc(33.33% - 20px);
+    padding: 10px;
+    box-shadow: 4px 4px 4px lightgray;
+    border-radius: 20px;
+    text-align: center;
+    gap: 10px;
+    margin: 10px;
+    
+  }
+
+  #img1 {
+    width: 100%;
+    
+  }
+
+  #img2 {
+    width: 100%;
+    
+  }
+
+  #img3 {
+    width: 100%;
+    
+  }
+
+  .Circle {
+    width: 100px;
+    height: 50px;
+    background-color: #3498db;
+    border-radius: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  .styled-hr {
+    border: none; 
+    border-top: 1px solid #ccc; 
+    margin: 50px 50px; 
+    border-radius: 50%;
+  }
+
+  .HeadingBoxBy {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+  }
+
+  .BusinessBox {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+    align-items: center;
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
