@@ -3,13 +3,34 @@
     padding: 0;
     box-sizing: border-box; 
   }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    padding: 20px;
+  }
+
+  h2 {
+    color: black;
+  }
+
+  h3 {
+    color: black;
+    padding: 0 0 0 10px;
+  }
+
   
   .Main-Charter{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 20px;
+    color: darkgray;
+    font-size: small;
+    
   }
 
   .Sub-Charter {
@@ -19,67 +40,152 @@
     margin: 20px;
   }
 
+  .HeadingBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+
   .C1,
   .C2,
   .C3 {
-    flex: 1;
     max-width: calc(33.33% - 20px);
-    padding: 10px;
-    box-shadow: 4px 4px 4px lightgray;
-    border-radius: 20px;
-    text-align: center;
+    box-shadow: 1px 1px 2px 2px lightgray;
+    border-radius: 10px;
     gap: 10px;
     margin: 10px;
+    color: darkgray;
+    
+  }
+
+  .C1 p,
+  .C2 p,
+  .C3 p {
+    padding: 10px;
     
   }
 
   #img1 {
     width: 100%;
+    border-radius: 10px 10px 0 0;
     
   }
 
   #img2 {
     width: 100%;
+    border-radius: 10px 10px 0 0;
     
   }
 
   #img3 {
     width: 100%;
+    border-radius: 10px 10px 0 0;
     
   }
 
-  .Circle {
-    width: 100px;
-    height: 50px;
-    background-color: #3498db;
-    border-radius: 100%; 
+
+  .Circle,
+  .FeaturedCircle {
+    height: 5px;
+    background-color: rgb(237, 237, 237);
+    border-radius: 10px;
     display: flex;
+    padding: 10px;
     align-items: center;
     justify-content: center;
-    color: white;
-    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    flex-direction: row-reverse;
+  }
+
+  .FeaturedCircle {
+    margin-left: auto;
+    background-color: blanchedalmond;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+    padding: 25px;
+    align-items: center;
+    align-content: center;
+
+  }
+
+  .Separator-Box{
+    display: flex;
+  }
+
+  .Separator-Line {
+    padding: 60px 0 50px 10px;
+  }
+
+
+  .Separator-Text {
+    padding: 50px 0 50px 50px;
   }
 
   .styled-hr {
     border: none; 
     border-top: 1px solid #ccc; 
-    margin: 50px 50px; 
     border-radius: 50%;
+    width: 1000px; 
+    height: 1px;
+    
+  }
+
+  .Heading-hr {
+    border: none; 
+    border-top: 1px solid #ccc; 
+    border-radius: 50%;
+    width: 100%; 
+    height: 1px;
+    
+  }
+
+  .Heading-Line {
+    padding: 20px;
   }
 
   .HeadingBoxBy {
     display: flex;
     gap: 10px;
-    margin: 20px;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    
   }
 
   .BusinessBox {
     display: flex;
     gap: 10px;
-    margin: 20px;
     align-items: center;
   }
 
+  .MarketingBox {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0 0 0 20px;
+  }
+
+  .Date {
+    color: #ccc;
+    font-size: small;
+  }
+
+  .HeadingInnerBox {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+    overflow: hidden; 
+  }
+  
+  .HeadingInnerBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
   
   
   
