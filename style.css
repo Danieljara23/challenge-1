@@ -22,7 +22,6 @@
     padding: 0 0 0 10px;
   }
 
-  
   .Main-Charter{
     display: flex;
     gap: 10px;
@@ -30,7 +29,6 @@
     justify-content: center;
     color: darkgray;
     font-size: small;
-    
   }
 
   .Sub-Charter {
@@ -56,34 +54,28 @@
     gap: 10px;
     margin: 10px;
     color: darkgray;
-    
   }
 
   .C1 p,
   .C2 p,
   .C3 p {
     padding: 10px;
-    
   }
 
   #img1 {
     width: 100%;
     border-radius: 10px 10px 0 0;
-    
   }
 
   #img2 {
     width: 100%;
     border-radius: 10px 10px 0 0;
-    
   }
 
   #img3 {
     width: 100%;
     border-radius: 10px 10px 0 0;
-    
   }
-
 
   .Circle,
   .FeaturedCircle {
@@ -110,7 +102,6 @@
     padding: 25px;
     align-items: center;
     align-content: center;
-
   }
 
   .Separator-Box{
@@ -120,7 +111,6 @@
   .Separator-Line {
     padding: 60px 0 50px 10px;
   }
-
 
   .Separator-Text {
     padding: 50px 0 50px 50px;
@@ -132,7 +122,6 @@
     border-radius: 50%;
     width: 1000px; 
     height: 1px;
-    
   }
 
   .Heading-hr {
@@ -141,7 +130,6 @@
     border-radius: 50%;
     width: 100%; 
     height: 1px;
-    
   }
 
   .Heading-Line {
@@ -153,7 +141,6 @@
     gap: 10px;
     align-items: center;
     color: rgb(0, 0, 0);
-    
   }
 
   .BusinessBox {
@@ -186,17 +173,3 @@
     height: 100%;
     object-fit: cover; 
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
