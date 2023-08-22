@@ -19,7 +19,7 @@
 
   h3 {
     color: black;
-    padding: 0 0 0 10px;
+    padding: 0 0 0 20px;
   }
 
   .Main-Charter{
@@ -59,7 +59,7 @@
   .C1 p,
   .C2 p,
   .C3 p {
-    padding: 10px;
+    padding: 30px;
   }
 
   #img1 {
@@ -68,13 +68,14 @@
   }
 
   #img2 {
-    width: 100%;
+    width: 94%;
     border-radius: 10px 10px 0 0;
   }
 
   #img3 {
-    width: 100%;
+    width: 102%;
     border-radius: 10px 10px 0 0;
+    padding-right: 10px;
   }
 
   .Circle,
