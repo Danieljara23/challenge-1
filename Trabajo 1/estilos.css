@@ -33,4 +33,16 @@ header {
   .boton-instagram:hover {
     background-color: #0d3e56;
   }
+.img1{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+  
+  
+}
+img {
+    width: 400px;
+    height: auto;
+    
+}
   
