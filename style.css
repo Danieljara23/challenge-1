@@ -26,7 +26,7 @@
     font-size: medium;
   }
 
-  .Main-Charter{
+  .main-charter{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
@@ -36,66 +36,54 @@
     padding: 20px;
   }
 
-  .Sub-Charter {
+  .sub-charter {
     display: flex;
     justify-content: center;
     margin: 20px;
     padding: 20px;
   }
 
-  .HeadingBox {
+  .headingbox {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 20px;
   }
 
-  .C1,
-  .C2,
-  .C3 {
+  .card {
     box-shadow: 1px 1px 2px 2px lightgray;
     border-radius: 10px;
-    gap: 10px;
     margin: 10px;
     color: darkgray;
     width: 30%;
   }
 
-  .C1 p,
-  .C2 p,
-  .C3 p {
+  .card p {
     padding: 30px;
-
   }
 
-  #img1 {
-    width: 100%;
+  .imgf {
+    width: auto;
     max-width: 250px;
-    border-radius: 10px 10px 0 0;
-  }
-
-  #img2 {
-    width: 100%;
-    max-width: 250px;
-    border-radius: 10px 10px 0 0;
-  }
-
-  #img3 {
-    width: 100%;
-    max-width: 250px;
+    max-height: 250px;
     border-radius: 10px 10px 0 0;
     
   }
 
-  .IMG1,
-  .IMG2,
-  .IMG3 {
+  .img {
     display: flex;
     justify-content: center;
+    padding: 10px;
+    
   }
 
-  .Circle,
-  .FeaturedCircle {
+  #img2 {
+    max-width: 235px;
+  }
+
+
+  .circle,
+  .featuredcircle {
     height: 5px;
     background-color: rgb(237, 237, 237);
     border-radius: 10px;
@@ -109,8 +97,7 @@
     flex-direction: row-reverse;
   }
 
-  .FeaturedCircle {
-    margin-left: auto;
+  .featuredcircle {
     background-color: blanchedalmond;
     color: rgb(0, 0, 0);
     font-size: 10px;
@@ -121,15 +108,15 @@
     align-content: center;
   }
 
-  .Separator-Box{
+  .separator-box{
     display: flex;
   }
 
-  .Separator-Line {
+  .separator-line {
     padding: 60px 0 50px 10px;
   }
 
-  .Separator-Text {
+  .separator-text {
     padding: 50px 0 50px 50px;
   }
 
@@ -141,7 +128,7 @@
     height: 1px;
   }
 
-  .Heading-hr {
+  .heading-hr {
     border: none; 
     border-top: 1px solid #ccc; 
     border-radius: 50%;
@@ -149,43 +136,43 @@
     height: 1px;
   }
 
-  .Heading-Line {
+  .heading-line {
     padding: 60px;
   }
 
-  .HeadingBoxBy {
+  .headingboxby {
     display: flex;
     gap: 10px;
     align-items: center;
     color: rgb(0, 0, 0);
   }
 
-  .BusinessBox {
+  .businessbox {
     display: flex;
     gap: 10px;
     align-items: center;
   }
 
-  .MarketingBox {
+  .marketingbox {
     display: flex;
     gap: 10px;
     align-items: center;
     padding: 0 0 0 20px;
   }
 
-  .Date {
+  .date {
     color: #ccc;
     font-size: small;
   }
 
-  .HeadingInnerBox {
+  .headinginnerbox {
     width: 30px;
     height: 30px;
     border-radius: 50%; 
     overflow: hidden; 
   }
   
-  .HeadingInnerBox img {
+  .headinginnerbox img {
     width: 100%;
     height: 100%;
     object-fit: cover; 
