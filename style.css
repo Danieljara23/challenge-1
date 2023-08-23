@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.encabezado{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0 15px 10px;
+    color: darkslategrey;
+    box-shadow: 0px 1px 0px 0px lightslategray;
+}
+
+.seccion-1{
+    display:  flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 50px 200px 50px 200px;
+}
+
+.lisa{
+    height: 300px;
+    border-radius: 0;
+}
+
+.seccion-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategrey;
+}
+
+.titulo-1{
+    font-size: x-large;
+    padding: 15px 0 15px 0;
+}
+
+span{
+    font-weight: bold;
+}
+
+.boton-link{
+    padding: 10px;
+    width: 60px;
+    box-shadow: 4px 4px 4px lightgray;
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(46, 135, 165);
+    font-size: small;
+}
+
+.bt-1{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.info-1{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.etiqueta-1{
+    height: 8px;
+    width: 70px;
+    border-radius: 30px;
+    background-color: rgb(215, 217, 220);
+    font-size: small;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.fecha{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategrey;
+    font-size: small;
+}
+
+.imagen-usuario{
+  padding: 15px;
+  display:  flex;
+  flex-direction: row;
+  gap: 20px
+}
+
+.creador{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.usuario{
+    width: 40px;
+    height: 40px;
+    border-radius: 180px;
+}
+
+.info-creador{
+    font-size: small;
+}
+
+  .seccion-2{
+    background-color: rgb(87, 187, 187);
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .parte-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(28, 47, 47);
+    padding-left: 20px;
+  }
+
+  .contenedor-cartas {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: darkslategrey;
+  }
+  
+  .segundo-div{
+    background-color: rgb(255, 255, 255);
+    padding: 0px 20px 5px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0 0 20px 20px;
+    
+    color-scheme: rgb(43, 43, 43);
+  }
+
+  .tercer-div{
+  padding: 7px 15px 10px 15px;
+  }
+  
+  .cartas{
+    background-color: rgb(255, 255, 255);
+    padding-top: 0px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgb(34, 34, 34);
+    width: 300px;
+    max-width: 300 px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+  img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+  }
+  h2{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  h3{
+    text-align:start;
+    font-weight: bold;
+    text-size-adjust: 12px;
+    color: rgb(71, 71, 71);
+  }
+  
+   .ultima-parte{
+    text-align: center;
+  }
+
+  .Img_1 {
+    width: 100px;
+    height: 100px;
+    margin-bottom: -40px;
+  }
+  .img_2 {
+    width: 100px;
+    height: 100px;
+    margin-bottom: -40px;
+  }
+  .img_3 {
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+    margin-bottom: -32px;
+  }
+  .buscar
+  {
+    width: 369px;
+    height: 53px;
+    border-radius: 10px;
+    border: solid 2px rgb(0, 179, 255) (128, 182, 252);
+    margin-left: 43px;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    
+  }
+  .btn {
+    
+    width: 86px;
+    height: 60px;
+    background-color: rgb(46, 135, 165);
+    color: aliceblue;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    border: solid 0;
+  }
+
+  .primerdiv {
+  display:flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-around;
+  padding: 5px;
+  
+  }
+ 
+  .fechas{
+  color: rgb(139, 139, 139);
+  }
+
+  .cajapestaña {
+      display:flex;
+      background-color: rgb(207, 207, 207);
+      border-radius: 4px;
+      justify-content: center;
+      width: 100px;
+      color: rgb(65, 64, 64);
+      text-size-adjust: 10px;
+  } 
+  
+  a{
+    text-decoration: none;
+  }
+  
+  
+  
+
