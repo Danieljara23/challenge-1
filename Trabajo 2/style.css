@@ -1,47 +1,123 @@
-.rectangle{
-    width: 1280px;
-height: 832px;
-flex-shrink: 0;
-background: linear-gradient(90deg, #2193B0 0.32%, #6DD5ED 99.52%);  
-}
-
-.nav-list {
-    list-style: none; 
-    padding: 0; 
-    margin: 0; 
-    text-align: right;
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background: linear-gradient(90deg, #2193B0 0.32%, #6DD5ED 99.52%);
+    padding: 10px 20px; 
+    
 }
 
 
-.nav-list li {
+.left {
     display: inline; 
-    margin-left: 20px; 
-    width: 60.175px;
-    height: 19.575px;
-    flex-shrink: 0;
-    
-    
 }
-.nav-list li:not(:first-child) a {
-    text-decoration: none;
+
+.left a {
     color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    margin-top: 34px;
+    margin-left: 51px;
+}
+
+.right {
+    display: flex; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.right li {
+    margin-left: 20px; 
+}
+
+.right a {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+   
+}
+
+
+.jhon{
+    width: 290.677px;
+height: 116.273px;
+flex-shrink: 0;
+color: #FEFEFE;
+font-family: Poppins;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 100px;
+margin-top: 268.72px;
+}
+
+.design{
+    width: 500.781px;
+height: 62.012px;
+flex-shrink: 0;
+color: #FFF;
 font-family: Poppins;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+text-align: left;
+margin-left: 100px;
+margin-bottom: 80.1px;
 
 }
 
-
-
-.nav-list li:first-child a {
-    text-decoration: none;
+.bold-text {
     color: #FFF;
 font-family: Poppins;
-font-size: 16px;
+font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-margin-left: 0
+}
+
+.photographer{
+    color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 201.944px;
+height: 38.758px;
+flex-shrink: 0;
+margin-left: 100px;
+}
+
+.heroe{
+    background: linear-gradient(90deg, #2193B0 0.32%, #6DD5ED 99.52%);;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.learn-more{
+    text-align: right;
+    margin-top: 10px;
+}
+
+.learn-more a{
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 400;
+}
+svg{
+    display: flex;
+    height: 1px;
+    background-color: #FFF;
+    margin: 20px 0;
 }
