@@ -44,7 +44,6 @@
     line-height: normal;
     margin-left: 10px;
     margin-right: 10px;
-    
 }
 
 @media screen and (min-width: 800px){
@@ -58,7 +57,11 @@
 
     }
 }
-
+@media screen and (min-width: 1280px){
+    .right{
+        margin-left: 950px;
+    }
+}
 .heroe{
     display: flex;
     background: linear-gradient(90deg, #2193B0 0.32%, #6DD5ED 99.52%);
@@ -250,11 +253,28 @@
     font-weight: 400;
     line-height: normal;
 }
-@media screen and (min-width: 834px) {
-    .info-box {
-        flex-direction: row;
-        width: auto; 
+@media screen and (min-width: 833px) {
+    .box-box{
         display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .info-box{
+        width: calc(33.33% - 30px); 
+        margin-right: 30px; 
+        height: auto; 
+    }
+    
+    .resume-column-left{
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+    }
+
+    .development{
+        margin-top: 5px;
     }
 }
 
@@ -284,8 +304,6 @@
     line-height: normal;
     margin-top: 40px;
 }
-
-
 .my-expertises {
     display: flex;
     width: 188px;
@@ -311,7 +329,6 @@
     width: 209px;
     margin-top: 30px;
 }
-
 .experience{
     color: #000;
     font-family: Poppins;
@@ -332,8 +349,6 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
     margin-top: 40px;
 }
-
-
 .hopkinks {
     width: 211.363px;
     color: #000;
@@ -386,3 +401,285 @@
     margin-top: 10px;
     margin-left: 17px;
 }
+
+.portfolio {
+    text-align: center;
+    padding: 20px;
+}
+
+.portfolio-title {
+    width: 168px;
+    height: 24px;
+    color: #2193B0;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0 auto;
+}
+
+
+.portfolio-subtitle {
+    width: 161px;
+    height: 57px;
+    color: #4A4A4A;
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 10px auto;
+}
+
+
+.rectangles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.rectangle {
+    width: 86px;
+    height: 37px;
+    border-radius: 30px;
+    margin: 5px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image {
+    width: 344px;
+    height: 394px;
+    background-color: lightgray;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 834px){
+    .image{
+        width: 225.873px;
+        height: 393px;
+        flex-shrink: 0;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .image{
+        width: calc(33.33% - 10px); 
+    margin-bottom: 20px; 
+    background-color: lightgray;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    }
+
+    .images{
+        margin-left: 155px;
+    margin-right: 155px;
+    }
+}
+.rectangle-text {
+    color: #6DD5ED;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 100%; 
+    height: 100%; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin: 0;
+    padding: 0;
+}
+
+.all{
+    width: 22.861px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.development{
+    align-self: flex-start; 
+    width: auto; 
+    height: auto;
+    padding: 5px 10px; 
+    border-radius: 30px;
+
+}
+
+.phrase-box{
+    width: 100%;
+    height: 301px;
+    background: url('coffe.png');
+}
+
+@media screen and (min-width:834px){
+    .phrase-box{
+        width: 100%;
+        height: 301px;
+        background: url("coffe-2.png");
+    }
+}
+@media screen and (min-width:1280px){ 
+    .phrase-box{
+        width: 100%;
+        height: 469px;
+        background: url("coffe-3.png");
+    }
+}
+
+.coffe{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phrase{
+    width: 325px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0;
+    margin-top: -200px;
+   margin-left: 34px;
+}
+
+.motivation{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+@media screen and (min-width:834px){
+    .motivation{
+        display: flex;
+        width: 536.879px;
+        height: 63.537px;
+        margin-left: 100px;
+    }
+    .doees{
+        margin-right: -450px;
+    }
+}
+@media screen and (min-width:1280px){ 
+    .motivation{
+        display: flex;
+        width: 823px;
+        height: 99px;
+        margin-left: 200px;
+        margin-top: -120px;
+    }
+    .doees{
+        margin-right: -920px;
+    }
+}
+.doees{
+    color: #FFF;
+    text-align: center;
+    font-family: poppins;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;  
+}
+
+.svg-coffe{
+    margin-bottom: 170px;
+}
+
+.info-rect {
+    background: #2193B0;
+    width: 100%;
+    height: 143px;
+    text-align: center;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media screen and (min-width:834px){
+        .info-rect{
+           
+            height: 143px;
+        }
+  }
+
+  @media screen and (min-width:1280px){ 
+        .info-rect{
+            
+            height: 226px;
+        }
+    }
+  .info-item {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #FFF;
+    margin: 0 5px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .info-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .copyright {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px; 
+  }
+.circle-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
