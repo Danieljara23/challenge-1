@@ -1,13 +1,15 @@
-main{
+main
+  {
     margin: auto 30px   ;
     font-family: 'Roboto', sans-serif;
   }
+
   body
-   {
+  {
     margin: 0;
   }
   
-  .HEADER 
+  .header__title
   {
     margin: 0;
     padding: 5px;
@@ -26,8 +28,8 @@ main{
   {
     width: 100%;
     grid-template-columns: 1fr;
-  
-}  
+  }   
+
   .section-1__item
   {
    justify-content: center;
@@ -47,15 +49,17 @@ main{
   border-radius: 30px;
   }
 
-  .Featured
+  .featured
   {
     margin-top: 6px;
     color: white;
   }
-  .Business
+
+  .business
   {
     margin-left: 6px;
   }
+
   .section_one_content-maker
   {
     width: 77px;
@@ -68,7 +72,7 @@ main{
     white-space: nowrap
   }
   
-  .section_one-container-icon
+  .section_one_container-icon
   {
     display: flex;
     gap: 5px;
@@ -80,7 +84,7 @@ main{
     height: 50px;
     border-radius: 100%;
   }
-  .cards-container
+  .cards__container
   {
     display: flex;
     justify-content: space-around;
@@ -99,14 +103,13 @@ main{
     height: 100%;
   }
   
-
   img
   {
    width: 100%;
    border-radius: 8px 8px 8px;
   }
 
-  .section-card__marker
+  .section__card-marker
   {
     width: 19.1%;
     height: 30px;
@@ -120,11 +123,12 @@ main{
     white-space: nowrap
   }
 
-.section-card__date
-{
+  .section-card__date
+  {
     margin-left: 40%;
-}
-  .card_info
+  }
+
+  .card__info
   {
     margin-left: 15px;
   }
