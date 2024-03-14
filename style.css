@@ -1,0 +1,143 @@
+main
+  {
+    margin: auto 30px   ;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  body
+  {
+    margin: 0;
+  }
+  
+  .header__title
+  {
+    margin: 0;
+    padding: 5px;
+    display: block;
+    border-bottom: 1px solid #b4b4b4;
+  }
+
+  .section-1
+   {
+    display: flex;
+    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .section-1__img
+  {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }   
+
+  .section-1__item
+  {
+   justify-content: center;
+   padding: 60px;
+   grid-template-columns: 1fr;
+  }
+
+  .section_buttom
+  {
+  width: 90px;
+  height: 10%;
+  margin-bottom: 20px;
+  margin-left: 400px;
+  display: flex;
+  justify-content: center;
+  background-color: #049BBC;
+  border-radius: 30px;
+  }
+
+  .featured
+  {
+    margin-top: 6px;
+    color: white;
+  }
+
+  .business
+  {
+    margin-left: 6px;
+  }
+
+  .section_one_content-maker
+  {
+    width: 77px;
+    height: 30px;
+    background-color: #F1F0F0;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    gap: 30px;
+    white-space: nowrap
+  }
+  
+  .section_one_container-icon
+  {
+    display: flex;
+    gap: 5px;
+  }
+
+  .photo_icon-item
+  {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+  }
+  .cards__container
+  {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  
+  
+  }
+  
+  .card
+  {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    box-shadow: 4px 4px 4px #e4e4e4;
+    border-radius: 8px 8px 8px;
+    height: 100%;
+  }
+  
+  img
+  {
+   width: 100%;
+   border-radius: 8px 8px 8px;
+  }
+
+  .section__card-marker
+  {
+    width: 19.1%;
+    height: 30px;
+    background-color: #F1F0F0;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 18px;
+    white-space: nowrap
+  }
+
+  .section-card__date
+  {
+    margin-left: 40%;
+  }
+
+  .card__info
+  {
+    margin-left: 15px;
+  }
+
+  .card:hover
+  {
+    transform: translateY(-5px);
+    box-shadow: 6px 6px 6px #aca9a9;
+    background-color: white;
+    transition: 100ms;
+  }
+  
