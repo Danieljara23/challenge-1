@@ -1,0 +1,119 @@
+* {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row; 
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.card {
+  width: 350px;
+  box-shadow: 4px 4px 4px;
+  border-radius: 8px;
+}
+
+.name {
+  font-size: 22px;
+}
+
+.photo__image {
+  position: relative;
+  width: 65%;
+  height: auto;
+}
+
+.photo {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+}
+
+.photo__title {
+  margin-left: 20px;
+  color: rgb(40, 42, 46);
+  font-size: 28px;
+}
+
+.photo__description {
+  margin-left: 20px;
+  color: rgb(124, 127, 134);
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.photo__subdescription {
+  margin-left: 50px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+
+.card__button,
+.photo__button {
+  display: inline-block;
+  margin-left: 20px;
+  color: rgb(5, 5, 5);
+  border-radius: 7px;
+  background-color: #e09292;
+  padding: 3px 10px;
+}
+
+
+
+.featured{
+  display: flex;
+  margin-left: 600px;
+  background-color: #92d0e0;
+  padding: 22px 22px;
+  border-radius: 87px;
+  width: px;
+  height: 18px;
+  margin-top: -110px;
+  font-size: 20px;
+}
+
+.card__date,
+.photo__date {
+  display: inline-block;
+  margin-left: 13px;
+  font-size: 14px;
+}
+
+.photo__author {
+  margin-left: 13%;
+  margin-top: -43px;
+  font-size: 15px;
+}
+
+.photo__caption {
+  position: absolute;
+  bottom: 100px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.card:hover {
+  background-color: rgb(66, 78, 129);
+  color: white;
+  transform: scale(1.1);  
+}
+
+.card__image {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.image__small {
+  width: 54px; 
+  height: 58px;
+  border-radius: 50%; 
+  margin-left: 20px;
+}
