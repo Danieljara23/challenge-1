@@ -1,0 +1,40 @@
+* {
+    font-family: sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.main-card {
+    background-image: url(/Pomodoro\ image.jpg);
+    width: 100%;
+    height: 500px;
+    display: grid;
+    gap: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.cards {
+    display: grid;
+    margin-top: 20px;
+    image-resolution: 100%;
+    gap: 20px;
+    flex-wrap: wrap;   
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+}
