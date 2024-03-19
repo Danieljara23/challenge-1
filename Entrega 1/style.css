@@ -1,0 +1,156 @@
+main {
+  margin: auto 60px;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.main-header {
+  font-size: 40px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+  align-items: center;
+}
+
+.main-section {
+  display: flex;
+  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.section-one__image {
+  width: 100%;
+}
+
+.section-one__author-info {
+  display: flex;
+  gap: 5px;
+}
+
+.section-one__button {
+  width: 18%;
+  margin-bottom: 20px;
+  margin-left: 700px;
+  display: flex;
+  justify-content: center;
+  background-color: #2fa9d5;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.section-one__button:hover {
+  background-color: #45a049;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.section-one__button-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.section-one__author-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.section-one__content {
+  justify-content: center;
+  padding: 60px;
+}
+
+.section-one__info {
+  width: 84px;
+  height: 20px;
+  background-color: #b3b3b384;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  gap: 30px;
+}
+
+.section-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.card {
+  background-color: #fff;
+  height: 600px;
+  border-radius: 8px;
+  box-shadow: 7px 4px 5px rgba(59, 59, 59, 0.1);
+  overflow: hidden;
+  grid-template-columns: 1fr;
+  transition: all 300ms;
+}
+
+.card:hover {
+  transform: scale(0.9);
+}
+
+.card__img {
+  width: 100%;
+  height: 500px;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card__content {
+    padding: 26px;
+  
+}
+
+.card__info {
+  width: 21.5%;
+  height: 20px;
+  background-color: #666;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  gap: 230px;
+  margin-bottom: 12px;
+}
+
+.card__title {
+  font-size: 1.5em;
+  margin-bottom: 8px;
+}
+
+.card__description {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 60px;
+}
